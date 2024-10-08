@@ -17,6 +17,8 @@ on:
     branches:
       - main
 
+permissions:
+  contents: read
 
 jobs:
   freshlinks:
