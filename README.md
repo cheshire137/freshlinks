@@ -28,7 +28,7 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Freshlinks
-        uses: reiddraper/freshlinks@v0.0.5
+        uses: reiddraper/freshlinks@0.1.1
         with:
           # Put in a glob pattern to find the
           # files you want Freshlinks to scan
