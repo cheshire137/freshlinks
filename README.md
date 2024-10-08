@@ -10,7 +10,13 @@ The Freshlinks GitHub Action can be installed with adding the following workflow
 
 ```yml
 name: Freshlinks
-on: [push]
+on:
+  workflow_dispatch:
+  push:
+  pull_request:
+    branches:
+      - main
+
 
 jobs:
   freshlinks:
